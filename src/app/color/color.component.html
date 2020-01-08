@@ -1,0 +1,6 @@
+<div class="container mt-5">
+    <h2 class="bg-primary text-center">Showing colors</h2>
+    <div *ngFor="let c of color.data">
+        <h1 [ngStyle]="{color:c.color}"  class="text-center">{{c.name}}</h1>
+    </div>
+</div>

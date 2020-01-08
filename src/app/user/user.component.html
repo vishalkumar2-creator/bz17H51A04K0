@@ -1,0 +1,18 @@
+<div class ="container mt-5">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Companyname</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let u of users.arr">
+         <td>{{u.name}}</td>
+         <td>{{u.address.city}}</td>
+         <td>{{u.company.name}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
